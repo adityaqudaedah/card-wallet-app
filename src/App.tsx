@@ -38,11 +38,11 @@ function App() {
         <Flex
           justify="space-between"
           align="center"
-          // style={{ border: "1px solid " }}
+        
         >
           <Typography.Title
             level={5}
-            // style={textStyle}
+
             style={{ margin: 0, fontWeight: "bolder" }}
           >
             Cards
@@ -74,7 +74,7 @@ function App() {
           </Flex>
 
           <Flex gap="small" style={{ width: "100vw", overflowX: "auto" }}>
-            {/* <CreditCard /> */}
+        
             <CardList
               cards={dataCard.map((card, index) => (
                 <CreditCard
