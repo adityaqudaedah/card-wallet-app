@@ -1,0 +1,20 @@
+.mastercard-logo {
+  position: relative;
+  width: 50px;
+  height: 30px;
+}
+.circle {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+.red-circle {
+  background-color: #ff5f00;
+  left: 0;
+}
+.orange-circle {
+  background-color: #eb001b;
+  right: 0;
+}
